@@ -18,6 +18,7 @@ Open two terminals and run backend and frontend:
 
 ```bash
 cd backend
+cat .env.example > .env  # and fill it out
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
